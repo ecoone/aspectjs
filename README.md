@@ -33,6 +33,7 @@ AOP(Aspect Oriented Programming)面向切面编程，是一种编程范式，提
 我们的通知有下面几种类型：before,after,throwing,around,[eventName]。eventName可以是任何事件名.通知可以在切面定义的时候传入，也可以以后定义。
 
 通知定义：`[aspectName].advice.[adviceName] = function(jointPoint)`。
+
 **jointPoint**:这个连接点的数据对象。结构如下：
 
 	{
