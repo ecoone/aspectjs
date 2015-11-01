@@ -1,3 +1,8 @@
+/*
+ * aspectjs (https://github.com/TUNIU-OPE/aspectjs)
+ * Copyright 2015 mni_Ya
+ * Licensed under the MIT license
+ */
 (function(global) {
   var util = {};
   util.isType = function(type) {
